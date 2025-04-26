@@ -26,6 +26,14 @@ body {
   font-family: "Poppins", serif;
   /* padding-top: 10PX;  */
 }
+.name{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.name i{
+  color: orange;
+}
 .ho {
   display: flex;
   gap: 50px;
@@ -199,6 +207,9 @@ li {
   font-size: 20px;
   padding-top: 20px;
   width: 100%;
+}
+.rightpage input{
+  color: white;
 }
 .log1 {
   height: 51px;

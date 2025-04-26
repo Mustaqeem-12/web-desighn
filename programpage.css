@@ -26,6 +26,15 @@ body {
   gap: 60px;
   align-items: center;
 }
+.sec1 a:hover{
+    transform: scale(1.1);
+    color: orange; 
+}
+.sec1 a{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
 
 .ho :hover {
   transform: scale(1.1);

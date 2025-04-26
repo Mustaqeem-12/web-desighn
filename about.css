@@ -29,6 +29,15 @@ body {
   transform: scale(1.1);
   color: red;
 }
+.sec1 a:hover{
+    transform: scale(1.1);
+    color: orange; 
+}
+.sec1 a{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
 .ho .active {
   color: red;
 }
@@ -231,6 +240,7 @@ button {
       padding-bottom: 10px;
 
 }
+.th
 .one {
   height: auto;
   width: 80%;

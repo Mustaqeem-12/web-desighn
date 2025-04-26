@@ -19,10 +19,27 @@ body {
   top: 0px;
   z-index: 999;
 }
+.name i{
+  color: orange;
+}
 .ho {
   display: flex;
   gap: 60px;
   align-items: center;
+}
+.sec1 a:hover{
+    transform: scale(1.1);
+    color: orange;
+}
+.sec1 a i{
+  color: white;
+  font-size: 18px;
+  color: orange;
+}
+.sec1 a{
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 .ho :hover {
   transform: scale(1.1);
@@ -157,7 +174,7 @@ button {
   font-weight: 700;
   font-family: "Poppins", serif;
   padding: 20px;
-}
+} 
 .register-left{
   display: flex;
   flex-direction: column;
